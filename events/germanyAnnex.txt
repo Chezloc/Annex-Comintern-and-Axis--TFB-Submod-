@@ -1,0 +1,286 @@
+﻿add_namespace = germanyAnnex
+
+country_event = {
+	id = germanyAnnex.1
+	
+	title = germanyAnnex.1.t
+	desc = germanyAnnex.1.d
+	picture = GFX_report_event_german_speech
+	
+	fire_only_once = yes
+	
+	#hidden = no
+	
+	is_triggered_only = yes
+		
+	#Add germanyAnnex
+	option = {
+		name = germanyAnnex.1.a
+		#custom_effect_tooltip = germanyAnnex.1.b.d
+		set_global_flag = germanyAnnex_event_happened
+		set_global_flag = GER_annexed_axis
+
+	# annex hungary
+		155 = {
+			if = {
+				limit = { is_owned_by = HUN }
+				add_core_of = GER
+			}
+		}
+		154 = {
+			if = {
+				limit = { is_owned_by = HUN }
+				add_core_of = GER
+			}
+		}
+		43 = {
+			if = {
+				limit = { is_owned_by = HUN }
+				add_core_of = GER
+			}
+		}
+		HUN = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = {
+			annex_country = { target = HUN transfer_troops = yes }
+				}
+
+
+	# annex romania
+		76 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		83 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		84 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		82 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		81 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		79 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		89 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		78 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		766 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		46 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		77 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		80 = {
+			if = {
+				limit = { is_owned_by = ROM }
+				add_core_of = GER
+			}
+		}
+		ROM = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = {
+			annex_country = { target = ROM transfer_troops = yes }
+				}
+
+
+	# annex bulgaria
+		48 = {
+			if = {
+				limit = { is_owned_by = BUL }
+				add_core_of = GER
+			}
+		}
+		212 = {
+			if = {
+				limit = { is_owned_by = BUL }
+				add_core_of = GER
+			}
+		}
+		801 = {
+			if = {
+				limit = { is_owned_by = BUL }
+				add_core_of = GER
+			}
+		}
+		211 = {
+			if = {
+				limit = { is_owned_by = BUL }
+				add_core_of = GER
+			}
+		}
+		BUL = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = {
+			annex_country = { target = BUL transfer_troops = yes }
+				}
+
+	# annex italy
+		158 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		162 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		161 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		159 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		39 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		160 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		736 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		157 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		160 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		2 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		117 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		156 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		115 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		114 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = GER
+			}
+		}
+		ITA = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = {
+			annex_country = { target = ITA transfer_troops = yes }
+			448 = { set_compliance = 70 }
+			661 = { set_compliance = 70 }
+			449 = { set_compliance = 70 }
+			662 = { set_compliance = 70 }
+			459 = { set_compliance = 70 }
+			663 = { set_compliance = 70 }
+			451 = { set_compliance = 70 }
+			164 = { set_compliance = 70 }
+			559 = { set_compliance = 70 }
+			550 = { set_compliance = 70 }
+			}
+
+		#annex ethiopia
+		GER = {
+			annex_country = { target = ETH transfer_troops = no }
+			add_research_slot = 1
+			}
+	}
+
+	#No germanyAnnex 
+	option = {
+		name = germanyAnnex.1.b
+		#custom_effect_tooltip = germanyAnnex.1.a.d
+		set_global_flag = germanyAnnex_event_happened
+	}	
+}

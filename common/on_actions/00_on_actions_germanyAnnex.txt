@@ -1,0 +1,10 @@
+on_actions = {
+	# country
+	on_startup = {		
+		effect = {
+			GER = {
+				country_event = { id = germanyAnnex.1 }
+			}
+		}
+	}
+}

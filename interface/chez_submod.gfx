@@ -1,0 +1,34 @@
+spriteTypes = { 
+    spriteType = {
+        name = GFX_joint_artillery_medium
+        texturefile = gfx/interface/technologies/com_arty_5.dds
+    }
+    spriteType = {
+        name = GFX_anti_air_equipment_jsam_medium
+        texturefile = gfx/interface/technologies/guided_missile_v2.dds
+    }
+    spriteType = {
+        name = GFX_idea_SOV_american_factories_leased
+        texturefile = gfx/interface/goals/focus_generic_the_giant_wakes.dds
+    }
+    spriteType = {
+        name = GFX_idea_SOV_american_camouflage
+        texturefile = gfx/interface/ideas/idea_generic_air_research.dds
+    }
+    spriteType = {
+        name = GFX_idea_SOV_american_computing
+        texturefile = gfx/interface/ideas/idea_usa_department_of_defense.dds
+    }
+    spriteType = {
+        name = GFX_idea_SOV_american_tech_cooperation
+        texturefile = gfx/interface/goals/focus_rocketry.dds
+    }
+    spriteType = {
+        name = GFX_idea_SOV_american_joint_research_center
+        texturefile = gfx/interface/goals/focus_rocketry.dds
+    }
+    spriteType = {
+        name = GFX_idea_SOV_american_specialist_workers
+        texturefile = gfx/interface/goals/focus_SOV_organize_wreckers.dds
+    }
+}

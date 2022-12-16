@@ -1,0 +1,10 @@
+on_actions = {
+	# country
+	on_startup = {		
+		effect = {
+			SOV = {
+				country_event = { id = sovietAnnex.1 }
+			}
+		}
+	}
+}
