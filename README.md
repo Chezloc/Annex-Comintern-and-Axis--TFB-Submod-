@@ -1,6 +1,9 @@
 # Annex Comintern and Axis (TFB submod)
  TFB submod by Chezloc#2039 (on discord)
 
+Their Finest Bruh (TFB) https://steamcommunity.com/sharedfiles/filedetails/?id=2559317737
+Annex Comintern and Axis (TFB Submod) https://steamcommunity.com/sharedfiles/filedetails/?id=2899023629
+
 A TFB submod which gives a decision for Germany and USSR to annex their faction members.
 
 - Germany and USSR will core the land the annexed countries have cored (for example Italian African colonies wouldnt get cored, however the only exception is Tannu Tuva getting cored by the USSR because they historically were in the USSR)
