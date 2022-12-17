@@ -9792,6 +9792,8 @@ SOV_american_technologies = {
 	
 		icon = generic_construction
 
+		custom_effect_tooltip = joint_art.d
+
 		available = {
 			NOT = { has_country_flag = SOV_american_technologies_flag }
 			has_tech = artillery7

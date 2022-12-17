@@ -362,6 +362,7 @@
  #### TECHNOLOGIES ####
  joint_SAM:0 "Joint Surface to Air Missile"
  joint_art:0 "Joint Artillery System"
+ joint_art.d:0 "§YPack Artillery: \n   §GSoft Attack: 15% \n   Fort Attack: 30% \n §YLight Assault Gun: \n   §GFort Attack: 40% \n §YMedium Assault Gun: \n   §GFort Attack: 60% \n §YAnti Tank: \n   §GHard Attack: 15% \n §YMotorized Anti Tank: \n   §GHard Attack: 15%"
  #### EQUIPMENT ####
  joint_artillery:0 "Joint Artillery System"
  anti_air_equipment_jsam:0 "Joint Surface to Air Missile"
