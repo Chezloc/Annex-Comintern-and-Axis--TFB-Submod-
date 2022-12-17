@@ -299,28 +299,6 @@ allow_take_over_faction = {
 #  # #  #  # #  #   #  #  #      #  # #  #  #   #  #  # #  #   # 
  ##   ##    #   ### #  #  #      #  #  ##   #  ###  ##  #  # ##  
 
-allow_coups = {
-	name = "RULE_ALLOW_COUPS"
-	group = "RULE_GROUP_COVERT_ACTIONS"
-	icon = "GFX_coups"
-	option = {
-		name = FREE
-		text = "RULE_OPTION_FREE"
-		desc = "RULE_ALLOW_COUPS_FREE_DESC"
-	}
-	option = {
-		name = AI_ONLY
-		text = "RULE_OPTION_AI_ONLY"
-		desc = "RULE_ALLOW_COUPS_AI_ONLY_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = BLOCKED
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_COUPS_BLOCKED_DESC"
-	}
-}
-
 allow_party_boosting = {
 	name = "RULE_ALLOW_PARTY_BOOSTING"
 	group = "RULE_GROUP_COVERT_ACTIONS"
@@ -2237,13 +2215,13 @@ AnnexFactionsEvent = {
 	name = ANNEX_FACTIONS_EVENT
 	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
 	default = {
-		name = NO
+		name = ANNEX_FACTIONS_DISABLED
 		text = "RULE_OPTION_ANNEX_FACTIONS_NOT"
 		desc = "RULE_OPTION_ANNEX_FACTIONS_NOT_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = YES
+		name = ANNEX_FACTIONS_ENABLED
 		text = "RULE_OPTION_ANNEX_FACTIONS_YES"
 		desc = "RULE_OPTION_ANNEX_FACTIONS_YES_DESC"
 	}
