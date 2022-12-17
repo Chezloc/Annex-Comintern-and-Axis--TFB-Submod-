@@ -1,4 +1,4 @@
-version="1.1.3"
+version="1.1.31"
 dependencies={
 	"Their Finest Bruh (TFB) "
 }
