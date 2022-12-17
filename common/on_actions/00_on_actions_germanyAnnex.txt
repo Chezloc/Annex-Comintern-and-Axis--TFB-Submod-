@@ -2,8 +2,16 @@ on_actions = {
 	# country
 	on_startup = {		
 		effect = {
-			GER = {
-				country_event = { id = germanyAnnex.1 }
+			if = { 
+				limit = { 
+					has_game_rule = {
+					rule = AnnexFactionsEvent
+					option = YES
+					}
+				}
+				GER = {
+					country_event = { id = germanyAnnex.1 }
+				}
 			}
 		}
 	}
