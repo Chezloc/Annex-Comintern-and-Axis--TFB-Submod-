@@ -25,3 +25,5 @@
 - Add extra soviet focuses to balance the game if axis annexed
 
 - Add weapon development and anti air deployment decisions for soviets to balance the game if axis annexed
+
+- Naval treaty violations wont end in war
