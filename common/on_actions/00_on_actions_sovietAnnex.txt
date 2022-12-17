@@ -10,7 +10,7 @@ on_actions = {
 					}
 				}
 				SOV = {
-					country_event = { id = gsovietAnnex.1 }
+					country_event = { id = sovietAnnex.1 }
 				}
 			}
 		}
