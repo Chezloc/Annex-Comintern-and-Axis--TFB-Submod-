@@ -6,7 +6,7 @@ on_actions = {
 				limit = { 
 					has_game_rule = {
 					rule = AnnexFactionsEvent
-					option = YES
+					option = ANNEX_FACTIONS_ENABLED
 					}
 				}
 				GER = {
